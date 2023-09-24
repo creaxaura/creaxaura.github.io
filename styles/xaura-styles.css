@@ -1,0 +1,635 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+body{
+	position:relative;
+	padding:0px;
+	margin:0px;
+	background-color:#585077;
+	background-image:url(../images/for-site/main_pattern.jpg);
+	background-size:auto 350px;
+	background-repeat:repeat;
+	text-align:center;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+	font-family:'Kiwi Maru',monospace, Gill Sans, Veranda,sans-serif;
+	color:white;
+	margin-bottom:20px;
+}
+
+p{
+	font-size:12pt;
+	margin:10px 0px;
+}
+
+h1{
+	font-size:2em;
+	margin:30px 0px;
+}
+
+h2{
+	font-size:1.8em;
+	margin:25px 0px;
+}
+
+h3{
+	font-size:1.5em;
+	margin:20px 0px;
+}
+
+h4{
+	font-size:1.2em;
+	margin:15px 0px;
+}
+
+h5{
+	font-size:0.8em;
+	margin:10px 0px;
+}
+
+h6{
+	font-size:0.6em;
+	margin:10px 0px;
+}
+
+a, a:visited{
+	color:white;
+	font-size:12pt;
+	font-family:'Kiwi Maru',monospace, Gill Sans, Veranda, sans-serif;
+	text-decoration:none;
+	background-color:#bbc0e9;
+	padding:5px 10px;
+	margin:30px 0px;
+	border-radius:6px;
+}
+
+a:hover, a:visited:hover{
+	color:white;
+	font-size:12pt;
+	font-family:'Kiwi Maru', monospace, Gill Sans, Veranda, sans-serif;
+	text-decoration:none;
+	background-color:#a3dafe;
+	padding:5px 10px;
+	margin:30px 0px;
+	cursor:pointer;
+	border-radius:6px;
+}
+
+ul{
+	list-style-type:circle;
+	list-style-position:inside;
+	color:white;
+	font-size:16pt;
+	font-family:'Kiwi Maru', monospace, Gill Sans, Veranda, sans-serif;
+	margin-bottom:30px;
+}
+
+li{
+	margin-bottom:25px;
+}
+
+footer{
+	position:relative;
+	margin-top:60px;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align:center;
+	font-size:10pt;
+	background-color:#1f203c;
+	border-radius:6px;
+}
+
+hr{
+	background-color:#abb4cc;
+	border-color:#abb4cc;
+	height:4px;
+	border-style:solid;
+	border-radius:6px;
+	margin-top:0px;
+	margin-bottom:20px;
+}
+
+form{
+	margin-left:15px;
+	margin-right:15px;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+button{
+	background-color:#ff6699;
+	border-color:#80002a;
+	border-style:solid;
+	border-radius:6px;
+	color:white;
+	font-size:13pt;
+	padding-bottom:5px;
+	padding-right:10px;
+	padding-left:10px;
+	padding-top:5px;
+	font-family:'Kiwi Maru',monospace, Gill Sans, Veranda,sans-serif;
+}
+
+button:hover{
+	cursor:pointer;
+	background-color:#ffb3cc;
+}
+
+img{
+	border-radius:6px;
+}
+
+footer p{
+	margin:10px;
+}
+
+.centered{
+    display:flex;
+		flex-direction:column;
+    align-items:center;
+		align-self:center;
+		margin:20px 50px;
+    padding:10px;
+		position:relative;
+}
+
+.nav{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	background-color:#1f203c;
+	position:relative;
+}
+
+.nav ul{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	margin-bottom:10px;
+	list-style-type: none;
+	margin:0px;
+}
+
+.nav ul li{
+	list-style-type: none;
+	margin:0px;
+}
+
+.nav ul li a, .nav ul li a:visited{
+	color:white;
+	font-size:16pt;
+	font-family:'Kiwi Maru',monospace, Gill Sans, Veranda,sans-serif;
+	border-radius:4px;
+	padding-top: 6px;
+	padding-bottom:6px;
+	padding-left:20px;
+	padding-right:20px;
+	text-decoration:none;
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-right:20px;
+}
+
+.nav ul li a:hover, .nav ul li a:visited:hover{
+	cursor:pointer;
+	color:white;
+	font-size:16pt;
+	font-family:'Kiwi Maru',monospace, Gill Sans, Veranda, sans-serif;
+	border-radius:4px;
+	padding-top: 6px;
+	padding-bottom:6px;
+	padding-left:20px;
+	padding-right:20px;
+	text-decoration:none;
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-right:20px;
+}
+
+.base-button, .base-button:visited{
+	color:white;
+	font-size:14pt;
+	font-family:'Kiwi Maru',monospace, Gill Sans, Veranda, sans-serif;
+	text-decoration:none;
+	background-color:#bbc0e9;
+	padding:5px 10px;
+	margin:30px 15px;
+	border-radius:6px;
+	border-color:white;
+	border-style:solid;
+	border-width:3px;
+}
+
+.base-button:hover, .base-button:hover{
+	color:white;
+	font-size:14pt;
+	font-family:'Kiwi Maru', monospace, Gill Sans, Veranda, sans-serif;
+	text-decoration:none;
+	background-color:#a3dafe;
+	padding:5px 10px;
+	margin:30px 15px;
+	cursor:pointer;
+	border-radius:6px;
+	border-color:white;
+	border-style:solid;
+	border-width:3px;
+}
+
+.socialButton, .socialButton:visited{
+	height:80px;
+	text-align:center;
+	padding:0px 10px;
+	margin:0px 15px;
+	background-color:rgba(255,255,255,0);
+}
+
+.socialButton:hover, .socialButton:visited:hover{
+	height:80px;
+	text-align:center;
+	padding:0px 10px;
+	margin:0px 15px;
+	background-color:rgba(255,255,255,0);
+	cursor:pointer;
+}
+
+.socialButton img{
+	height:50px;
+	width:auto;
+}
+
+.gallery{
+	border-style:outset;
+	border-radius:8px;
+	background-color:rgba(255, 255, 255, 0.4);
+	padding:20px;
+	border-color:#80002a;
+	border-width:5px;
+}
+
+.gallery-row{
+	margin-bottom:30px;
+}
+
+.gallery-img{
+	width:250px;
+	height:300px;
+	object-fit:cover;
+	margin:15px;
+	background-color:rgb(255, 238, 239);
+	border-radius:12px;
+}
+
+.small-gallery-img{
+	width:112px;
+	height:112px;
+	object-fit:contain;
+	margin:15px 20px;
+	background-color:rgb(255, 238, 239);
+	border-radius:12px;
+}
+
+.pngtuber-gallery-img{
+	width:350px;
+	height:250px;
+	object-fit:cover;
+	margin:15px 20px;
+	background-color:rgb(255, 238, 239);
+	border-radius:12px;
+}
+
+.commission-sheet-img{
+	width:500px;
+	height:500px;
+	object-fit:cover;
+	margin:15px 20px;
+	background-color:rgb(174, 161, 231);
+	border-radius:12px;
+}
+
+.commission-row{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+}
+
+.gallery-menu{
+	background-color:rgba(40, 41, 92, 0.8);
+	padding:25px 15px;
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	border-radius:12px;
+	margin-bottom:20px;
+}
+
+.gallery-menu ul{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	margin:0px;
+}
+
+.gallery-menu li{
+	display:inline-block;
+	margin:0px;
+}
+
+.gallery-menu ul li a, .gallery-menu ul li a:visited{
+	color:white;
+	font-size:12pt;
+	font-family:'Kiwi Maru', monospace, Gill Sans, Veranda, sans-serif;
+	border-radius:4px;
+	padding-top: 6px;
+	padding-bottom:6px;
+	padding-left:20px;
+	padding-right:20px;
+	text-decoration:none;
+	margin-top:22px;
+	margin-bottom:2px;
+	margin-left:10px;
+	margin-right:15px;
+}
+
+.gallery-menu ul li a:hover, .gallery-menu ul li a:visited:hover{
+	background-color:#F8AEF0;
+	cursor:pointer;
+}
+
+.FAQ-box{
+	background-color:rgba(120, 113, 171, 0.85);
+	border-radius:12px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	padding:20px;
+}
+
+.FAQ-Single{
+	width:100%;
+	border-top-style:dashed;
+	border-left-style:solid;
+	border-right-style:solid;
+	border-color:#46367c;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	padding:0px 10px;
+}
+
+.FAQ-question{
+	padding-left:15px;
+	align-self:flex-start;
+}
+
+.will-wont-box{
+	display:table;
+	margin-bottom:50px;
+	align-self:center;
+}
+
+.wont-side{
+	background-color:rgba(226, 62, 84, 0.7);
+	border-left-style:solid;
+	border-width:4px;
+	border-top-style:dashed;
+	border-bottom-style:dashed;
+	border-right-style:dashed;
+	border-color:white;
+	padding:20px 25px;
+	display:table-cell;
+}
+
+.will-side{
+	background-color:rgba(62, 103, 226, 0.7);
+	border-right-style:solid;
+	border-width:4px;
+	border-top-style:dashed;
+	border-bottom-style:dashed;
+	border-left-style:dashed;
+	border-color:white;
+	padding:20px 25px;
+	display:table-cell;
+	margin-bottom:30px;
+}
+
+.info-box{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	background-color:rgba(22, 28, 59, 0.85);
+	border-radius: 12px;
+	padding:10px 25px;
+	margin-bottom:30px;
+}
+
+.icon, .icon:visited{
+	background-color:rgba(255, 255, 255, 0);
+}
+
+.icon:hover, .icon:visited:hover{
+	background-color:rgba(255, 255, 255, 0);
+	cursor:hover;
+}
+
+.icon-img{
+	width:80px;
+	height:80px;
+	border-radius:5px;
+}
+
+.med-icon-img{
+	display:block;
+	width:150px;
+	height:150px;
+	margin-bottom:30px;
+	border-radius:5px;
+}
+
+.hidden, .hidden:visited{
+	background-color:rgba(255, 255, 255, 0);
+	font-family:'Kiwi Maru',monospace, Gill Sans, Veranda,sans-serif;
+	font-size:12pt;
+	color:white;
+	text-decoration:none;
+}
+
+.hidden:hover, .hidden:visited:hover{
+	background-color:rgba(255, 255, 255, 0);
+	font-family:'Kiwi Maru',monospace, Gill Sans, Veranda,sans-serif;
+	font-size:12pt;
+	color:white;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+.case-box{
+	background-color:rgba(9, 18, 69, 0.8);
+	display:table;
+	padding-bottom:30px;
+}
+
+.case-file-title{
+	background-color:#0B0529;
+	display:table-row;
+}
+
+.case-file-holder{
+	display:table-row;
+	padding:10px 100px;
+}
+
+.commission-gallery{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	border-radius:12px;
+	align-items:center;
+	padding:40px 40px;
+	background-color:rgba(139, 167, 211, 0.7);
+}
+
+.case-title{
+	padding-left:100px;
+	padding-right:100px;
+}
+
+.show-off-icon{
+	width:200px;
+	border-radius:8px;
+}
+
+.pixel-image{
+	width:125px;
+	height:125px;
+}
+
+.game-display{
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	border-radius:8px;
+	border-style:ridge;
+	border-color:#2B1752;
+}
+
+.chibi-animal-img{
+	width:250px;
+	height:250px;
+	object-fit:contain;
+	margin:15px;
+	background-color:rgb(255, 238, 239);
+	border-radius:12px;
+}
+
+.show-off-img{
+	width:400px;
+}
+
+.info-img{
+	width:300px;
+}
+
+.clear-button{
+	background-color:rgba(255,255,255,0);
+	border-color:rgba(255,255,255,0);
+}
+
+.clear-button:hover{
+	background-color:rgba(255,255,255,0);
+	border-color:rgba(255,255,255,0);
+	cursor:pointer;
+}
+
+.x-button{
+	font-weight:bolder;
+	font-size:20px;
+	background-color:rgba(255,255,255,0);
+	border-color:white;
+	border-radius:8px;
+	border-width:4px;
+	padding:8px;
+	margin-right:450px;
+	margin-top:150px;
+}
+
+.pop-up{
+	background-color:rgba(34, 36, 54, 0.7);
+	position:fixed;
+	display:none;
+	top:0; /*position up and down*/
+	left:0; /*position left right*/
+	width:100%;
+	height:100vh;
+	z-index:1; /*position as a layer (front and back)*/
+	overflow:auto; /*helps with autoscroll*/
+	padding:25px 100px;
+}
+
+.display-column{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+.display-row{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+}
+
+.display-row-end{
+	display:flex;
+	flex-direction:row-reverse;
+	align-items:center;
+	width:100vw;
+}
+
+.img-menu{
+	background-color:#45488D;
+	color:white;
+	border-radius:8px;
+}
+
+.img-menu ul{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	list-style-type: none;
+}
+
+.img-menu ul li {
+	text-decoration:none;
+	list-style-type: none;
+	display:flex;
+	flex-direction:column;
+	align-items:flex-start;
+}
+
+#view-img{
+	height:75%;
+	max-height:550px;/*this will be handy*/
+	margin:15px 20px;
+}
+
+@media(max-height:700px){
+	
+}
+
+.fake-button, .fake-button:hover{
+	background-color:#bbc0e9;
+	border-color:none;
+	border-style:none;
+	border-radius:6px;
+	color:white;
+	font-size:13pt;
+	padding-bottom:5px;
+	padding-right:10px;
+	padding-left:10px;
+	padding-top:5px;
+	font-family:'Kiwi Maru',monospace, Gill Sans, Veranda,sans-serif;
+	cursor:not-allowed;
+}

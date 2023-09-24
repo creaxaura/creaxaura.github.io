@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta name="viewport" content="width=device-width" charset="UTF-8"/>
+	<title>Art Portfolio - Chibi</title>
+	<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Kiwi+Maru"/>
+	<link rel="stylesheet" href="..\styles\xaura-styles.css">
+	<script src="javascript/get-image-data.js"></script>
+</head>
+
+<header>
+	<div class="nav">
+		<ul>
+			<li><a class="icon" href="/"><img class="icon-img" src="./images/for-site/mini-logo.png" alt="mini-logo"></a></li>
+			<li><a href="/">Home</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="commissions.html">Commissions</a></li>
+			<li><a href="projects.html">Projects</a></li>
+			<li><a href="stickers.html">Shop</a></li>
+		</ul>
+	</div>
+	<hr>
+
+</header>
+
+<body>
+<div class="centered">
+	<div class="gallery-menu">
+		<ul>
+			<li><a href="art-portfolio.html">Illustration</a></li>
+			<li><a href="art-portfolio-chibi.html">Chibi</a></li>
+			<li><a href="art-portfolio-chibi-animals.html">Chibi Animals</a></li>
+			<li><a href="art-portfolio-sketches.html">Sketches</a></li>
+			<li><a href="art-portfolio-emotes.html">Emotes</a></li>
+			<li><a href="art-portfolio-pngtuber.html">PNGtuber</a></li>
+			<li><a href="art-portfolio-icons.html">Icons</a></li>
+			<li><a href="art-portfolio-stickers.html">Stickers</a></li>
+		</ul>
+	</div>
+	<div class="gallery">
+			<div class="gallery-row">
+				<button class="clear-button" onClick="viewImage(this.value);" value="images/portfolio/IMG_6878.jpg">
+					<img class="gallery-img" src="images/portfolio/IMG_6878.jpg"/>
+				</button>
+				<button class="clear-button" onClick="viewImage(this.value);" value="images/portfolio/IMG_6338.JPG">
+					<img class="gallery-img" src="images/portfolio/IMG_6338.JPG"/>
+				</button>
+					
+					<button class="clear-button" onClick="viewImage(this.value);" value="images/portfolio/IMG_0572.PNG">
+						<img class="gallery-img" src="images/portfolio/IMG_0572.PNG"/>
+					</button>
+					
+					<button class="clear-button" onClick="viewImage(this.value);" value="images/portfolio/IMG_6279.jpg">
+						<img class="gallery-img" src="images/portfolio/IMG_6279.jpg"/>
+					</button>
+					
+					
+					
+				</div>
+				<div class="gallery-row">
+					<button class="clear-button" onClick="viewImage(this.value);" value="images/portfolio/IMG_2628.PNG">
+						<img class="gallery-img" src="images/portfolio/IMG_2628.PNG"/>
+					</button>
+					<button class="clear-button" onClick="viewImage(this.value);" value="images/portfolio/IMG_4373.PNG">
+						<img class="gallery-img" src="images/portfolio/IMG_4373.PNG"/>
+					</button>
+					
+					<button class="clear-button" onClick="viewImage(this.value);" value="images/portfolio/IMG_2319.jpeg">
+						<img class="gallery-img" src="images/portfolio/IMG_2319.jpeg"/>
+					</button>
+					
+					<button class="clear-button" onClick="viewImage(this.value);" value="images/portfolio/IMG_0282.PNG">
+						<img class="gallery-img" src="images/portfolio/IMG_0282.PNG"/>
+					</button>
+					
+					
+					
+				</div>
+				<div class="gallery-row">
+					<button class="clear-button" onClick="viewImage(this.value);" value="images/portfolio/IMG_4962.JPG">
+						<img class="gallery-img" src="images/portfolio/IMG_4962.JPG"/>
+					</button>
+					<button class="clear-button" onClick="viewImage(this.value);" value="images/portfolio/themis_chibi.png">
+						<img class="gallery-img" src="images/portfolio/themis_chibi.png"/>
+					</button>
+					
+					
+				</div>
+			</div>
+	</div>
+
+	<div class="pop-up">
+		<div class="display-column">
+			<div class="display-row-end"><button class="x-button" onClick="exitViewImage();">X</button></div>
+			<img id="view-img">
+		</div>
+	</div>
+	
+</body>
+
+<footer>
+
+	<div>
+		<p>...keep and eye out...</p>
+	</div>
+	<div style="margin-top:30px;">
+		<p>SOCIAL MEDIA</p>
+		<div class="miniMenu">
+			<a class="socialButton" href="https://instagram.com/creaxaura" target="_blank"><img src="..\icons\insta.png"/></a>
+			<a class="socialButton" href="https://twitter.com/creaxaura" target="_blank"><img src="..\icons\twitter.png"/></a>
+			<a class="socialButton" href="https://youtube.com/creaxaura" target="_blank"><img src="..\icons\youtube.png"/></a>
+			<a class="socialButton" href="https://twitch.tv/creaxaura" target="_blank"><img src="..\icons\twitch.png"/></a>
+			<a class="socialButton" href="https://www.tiktok.com/t/ZTd79a5n5/" target="_blank"><img alt="tik_tok link" src="..\icons\tik_tok.png"/></a>
+			<a class="socialButton" href="https://linktr.ee/creaxaura" target="_blank"><img src="..\icons\linktree.png"/></a>
+		</div>
+		<p>SUPPORT</p>
+		<div class="miniMenu">
+			<a class="socialButton" href="https://creaxaura.itch.io/" target="_blank"><img src="..\icons\itchio.png"/></a>
+			<a class="socialButton" href="https://www.etsy.com/shop/creaxaura/" target="_blank"><img src="..\icons\etsy.png"/></a>
+			<a class="socialButton" href="https://ko-fi.com/creaxaura" target="_blank"><img src="..\icons\ko-fi.png"/></a>
+		</div>
+	</div>
+	<div>
+		<p>&#169 2023 creaxaura</p>
+	</div>
+</footer>
+
+</html>
