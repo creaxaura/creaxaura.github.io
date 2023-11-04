@@ -147,6 +147,14 @@ footer p{
 	margin:10px;
 }
 
+iframe{
+	border-style:soild;
+	border-color:#abb4cc;
+	background-color:#585077;
+	width:720px;
+	height:480px;
+}
+
 .centered{
     display:flex;
 		flex-direction:column;
@@ -161,7 +169,8 @@ footer p{
 	display:flex;
 	flex-direction:row;
 	align-items:center;
-	background-color:#1f203c;
+	background-color:rgba(13, 5, 42, 0.448);
+	border-radius:12px;
 	position:relative;
 }
 
