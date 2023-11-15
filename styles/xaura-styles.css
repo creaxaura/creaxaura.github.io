@@ -22,43 +22,43 @@ p, h1, h2, h3, h4, h5, h6{
 }
 
 p{
-	font-size:14pt;
+	font-size:12pt;
 	margin:10px 0px;
 }
 
 h1{
-	font-size:2vw;
+	font-size:2em;
 	margin:30px 0px;
 }
 
 h2{
-	font-size:1.8vw;
+	font-size:1.8em;
 	margin:25px 0px;
 }
 
 h3{
-	font-size:1.5vw;
+	font-size:1.5em;
 	margin:20px 0px;
 }
 
 h4{
-	font-size:1.2vw;
+	font-size:1.2em;
 	margin:15px 0px;
 }
 
 h5{
-	font-size:0.8vw;
+	font-size:0.8em;
 	margin:10px 0px;
 }
 
 h6{
-	font-size:0.6vw;
+	font-size:0.6em;
 	margin:10px 0px;
 }
 
 a, a:visited{
 	color:white;
-	font-size:14pt;
+	font-size:12pt;
 	font-family:'Kiwi Maru',monospace, Gill Sans, Veranda, sans-serif;
 	text-decoration:none;
 	background-color:#bbc0e9;
@@ -69,7 +69,7 @@ a, a:visited{
 
 a:hover, a:visited:hover{
 	color:white;
-	font-size:14pt;
+	font-size:12pt;
 	font-family:'Kiwi Maru', monospace, Gill Sans, Veranda, sans-serif;
 	text-decoration:none;
 	background-color:#a3dafe;
@@ -83,7 +83,7 @@ ul{
 	list-style-type:circle;
 	list-style-position:inside;
 	color:white;
-	font-size:14pt;
+	font-size:16pt;
 	font-family:'Kiwi Maru', monospace, Gill Sans, Veranda, sans-serif;
 	margin-bottom:30px;
 }
@@ -151,8 +151,8 @@ iframe{
 	border-style:soild;
 	border-color:#abb4cc;
 	background-color:#585077;
-	max-width:720vh;
-	max-height:480vh;
+	width:720px;
+	height:480px;
 }
 
 .centered{
@@ -249,7 +249,7 @@ iframe{
 }
 
 .socialButton, .socialButton:visited{
-	max-height:120vh;
+	height:80px;
 	text-align:center;
 	padding:0px 10px;
 	margin:0px 15px;
@@ -257,7 +257,7 @@ iframe{
 }
 
 .socialButton:hover, .socialButton:visited:hover{
-	max-height:120vh;
+	height:80px;
 	text-align:center;
 	padding:0px 10px;
 	margin:0px 15px;
@@ -266,7 +266,7 @@ iframe{
 }
 
 .socialButton img{
-	max-height:100vh;
+	height:50px;
 	width:auto;
 }
 
@@ -284,8 +284,8 @@ iframe{
 }
 
 .gallery-img{
-	max-width:250vh;
-	max-height:300vh;
+	width:250px;
+	height:300px;
 	object-fit:cover;
 	margin:15px;
 	background-color:rgb(255, 238, 239);
@@ -293,8 +293,8 @@ iframe{
 }
 
 .small-gallery-img{
-	max-width:112vh;
-	max-height:112vh;
+	width:112px;
+	height:112px;
 	object-fit:contain;
 	margin:15px 20px;
 	background-color:rgb(255, 238, 239);
@@ -302,8 +302,8 @@ iframe{
 }
 
 .pngtuber-gallery-img{
-	max-width:350vh;
-	max-height:250vh;
+	width:350px;
+	height:250px;
 	object-fit:cover;
 	margin:15px 20px;
 	background-color:rgb(255, 238, 239);
@@ -311,8 +311,8 @@ iframe{
 }
 
 .commission-sheet-img{
-	max-width:500vh;
-	max-height:500vh;
+	width:500px;
+	height:500px;
 	object-fit:cover;
 	margin:15px 20px;
 	background-color:rgb(174, 161, 231);
@@ -445,15 +445,15 @@ iframe{
 }
 
 .icon-img{
-	max-width:80vh;
-	max-height:80vh;
+	width:80px;
+	height:80px;
 	border-radius:5px;
 }
 
 .med-icon-img{
 	display:block;
-	max-width:150vh;
-	max-height:150vh;
+	width:150px;
+	height:150px;
 	margin-bottom:30px;
 	border-radius:5px;
 }
@@ -507,13 +507,13 @@ iframe{
 }
 
 .show-off-icon{
-	max-width:200vh;
+	width:200px;
 	border-radius:8px;
 }
 
 .pixel-image{
-	max-width:125vh;
-	max-height:125vh;
+	width:125px;
+	height:125px;
 }
 
 .game-display{
@@ -526,8 +526,8 @@ iframe{
 }
 
 .chibi-animal-img{
-	max-width:250vh;
-	max-height:250vh;
+	width:250px;
+	height:250px;
 	object-fit:contain;
 	margin:15px;
 	background-color:rgb(255, 238, 239);
@@ -535,11 +535,11 @@ iframe{
 }
 
 .show-off-img{
-	max-width:400vh;
+	width:400px;
 }
 
 .info-img{
-	max-width:300vh;
+	width:300px;
 }
 
 .clear-button{
@@ -624,6 +624,9 @@ iframe{
 	margin:15px 20px;
 }
 
+@media(max-height:700px){
+	
+}
 
 .fake-button, .fake-button:hover{
 	background-color:#bbc0e9;
