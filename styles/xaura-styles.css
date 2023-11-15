@@ -22,43 +22,43 @@ p, h1, h2, h3, h4, h5, h6{
 }
 
 p{
-	font-size:12pt;
+	font-size:1.5vw;
 	margin:10px 0px;
 }
 
 h1{
-	font-size:2em;
+	font-size:4.0vw;
 	margin:30px 0px;
 }
 
 h2{
-	font-size:1.8em;
+	font-size:3.5vw;
 	margin:25px 0px;
 }
 
 h3{
-	font-size:1.5em;
+	font-size:3vw;
 	margin:20px 0px;
 }
 
 h4{
-	font-size:1.2em;
+	font-size:2.5vw;
 	margin:15px 0px;
 }
 
 h5{
-	font-size:0.8em;
+	font-size:2.0vw;
 	margin:10px 0px;
 }
 
 h6{
-	font-size:0.6em;
+	font-size:1.0vw;
 	margin:10px 0px;
 }
 
 a, a:visited{
 	color:white;
-	font-size:12pt;
+	font-size:1.5vw;
 	font-family:'Kiwi Maru',monospace, Gill Sans, Veranda, sans-serif;
 	text-decoration:none;
 	background-color:#bbc0e9;
@@ -69,7 +69,7 @@ a, a:visited{
 
 a:hover, a:visited:hover{
 	color:white;
-	font-size:12pt;
+	font-size:1.5vw;
 	font-family:'Kiwi Maru', monospace, Gill Sans, Veranda, sans-serif;
 	text-decoration:none;
 	background-color:#a3dafe;
@@ -83,7 +83,7 @@ ul{
 	list-style-type:circle;
 	list-style-position:inside;
 	color:white;
-	font-size:16pt;
+	font-size:1.5vw;
 	font-family:'Kiwi Maru', monospace, Gill Sans, Veranda, sans-serif;
 	margin-bottom:30px;
 }
@@ -98,7 +98,6 @@ footer{
 	padding-top:20px;
 	padding-bottom:20px;
 	text-align:center;
-	font-size:10pt;
 	background-color:#1f203c;
 	border-radius:6px;
 }
@@ -126,7 +125,7 @@ button{
 	border-style:solid;
 	border-radius:6px;
 	color:white;
-	font-size:13pt;
+	font-size:1.5vw;
 	padding-bottom:5px;
 	padding-right:10px;
 	padding-left:10px;
@@ -145,14 +144,15 @@ img{
 
 footer p{
 	margin:10px;
+	font-size:1.0vw;
 }
 
 iframe{
 	border-style:soild;
 	border-color:#abb4cc;
 	background-color:#585077;
-	width:720px;
-	height:480px;
+	max-width:720vh;
+	max-height:480vh;
 }
 
 .centered{
@@ -249,7 +249,7 @@ iframe{
 }
 
 .socialButton, .socialButton:visited{
-	height:80px;
+	max-height:12vh;
 	text-align:center;
 	padding:0px 10px;
 	margin:0px 15px;
@@ -257,7 +257,7 @@ iframe{
 }
 
 .socialButton:hover, .socialButton:visited:hover{
-	height:80px;
+	max-height:12vh;
 	text-align:center;
 	padding:0px 10px;
 	margin:0px 15px;
@@ -266,7 +266,7 @@ iframe{
 }
 
 .socialButton img{
-	height:50px;
+	max-height:10vh;
 	width:auto;
 }
 
@@ -284,8 +284,8 @@ iframe{
 }
 
 .gallery-img{
-	width:250px;
-	height:300px;
+	max-width:35vh;
+	max-height:45vh;
 	object-fit:cover;
 	margin:15px;
 	background-color:rgb(255, 238, 239);
@@ -293,8 +293,8 @@ iframe{
 }
 
 .small-gallery-img{
-	width:112px;
-	height:112px;
+	max-width:22vh;
+	max-height:22vh;
 	object-fit:contain;
 	margin:15px 20px;
 	background-color:rgb(255, 238, 239);
@@ -302,8 +302,8 @@ iframe{
 }
 
 .pngtuber-gallery-img{
-	width:350px;
-	height:250px;
+	max-width:35vh;
+	max-height:45vh;
 	object-fit:cover;
 	margin:15px 20px;
 	background-color:rgb(255, 238, 239);
@@ -311,8 +311,8 @@ iframe{
 }
 
 .commission-sheet-img{
-	width:500px;
-	height:500px;
+	max-width:60vh;
+	max-height:60vh;
 	object-fit:cover;
 	margin:15px 20px;
 	background-color:rgb(174, 161, 231);
@@ -445,15 +445,15 @@ iframe{
 }
 
 .icon-img{
-	width:80px;
-	height:80px;
+	max-width:12vh;
+	max-height:12vh;
 	border-radius:5px;
 }
 
 .med-icon-img{
 	display:block;
-	width:150px;
-	height:150px;
+	max-width:17vh;
+	max-height:17vh;
 	margin-bottom:30px;
 	border-radius:5px;
 }
@@ -461,7 +461,7 @@ iframe{
 .hidden, .hidden:visited{
 	background-color:rgba(255, 255, 255, 0);
 	font-family:'Kiwi Maru',monospace, Gill Sans, Veranda,sans-serif;
-	font-size:12pt;
+	font-size:1.5vw;
 	color:white;
 	text-decoration:none;
 }
@@ -469,7 +469,7 @@ iframe{
 .hidden:hover, .hidden:visited:hover{
 	background-color:rgba(255, 255, 255, 0);
 	font-family:'Kiwi Maru',monospace, Gill Sans, Veranda,sans-serif;
-	font-size:12pt;
+	font-size:1.5vw;
 	color:white;
 	text-decoration:none;
 	cursor:pointer;
@@ -507,13 +507,13 @@ iframe{
 }
 
 .show-off-icon{
-	width:200px;
+	max-width:22vh;
 	border-radius:8px;
 }
 
 .pixel-image{
-	width:125px;
-	height:125px;
+	max-width:14.5vh;
+	max-height:14.5vh;
 }
 
 .game-display{
@@ -526,8 +526,8 @@ iframe{
 }
 
 .chibi-animal-img{
-	width:250px;
-	height:250px;
+	max-width:27vh;
+	max-height:27vh;
 	object-fit:contain;
 	margin:15px;
 	background-color:rgb(255, 238, 239);
@@ -535,11 +535,11 @@ iframe{
 }
 
 .show-off-img{
-	width:400px;
+	max-width:66vh;
 }
 
 .info-img{
-	width:300px;
+	max-width:32vh;
 }
 
 .clear-button{
@@ -624,9 +624,6 @@ iframe{
 	margin:15px 20px;
 }
 
-@media(max-height:700px){
-	
-}
 
 .fake-button, .fake-button:hover{
 	background-color:#bbc0e9;
