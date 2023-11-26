@@ -22,43 +22,43 @@ p, h1, h2, h3, h4, h5, h6{
 }
 
 p{
-	font-size:1.5vw;
+	font-size:min(3vw, 14pt);
 	margin:10px 0px;
 }
 
 h1{
-	font-size:4.0vw;
+	font-size:min(5.5vw, 45pt);
 	margin:30px 0px;
 }
 
 h2{
-	font-size:3.5vw;
+	font-size:min(5vw, 40pt);
 	margin:25px 0px;
 }
 
 h3{
-	font-size:3vw;
+	font-size:min(4.5vw, 30pt);
 	margin:20px 0px;
 }
 
 h4{
-	font-size:2.5vw;
+	font-size:min(4vw, 20pt);
 	margin:15px 0px;
 }
 
 h5{
-	font-size:2.0vw;
+	font-size:min(3.5vw, 16pt);
 	margin:10px 0px;
 }
 
 h6{
-	font-size:1.0vw;
+	font-size:min(2.5vw, 12pt);
 	margin:10px 0px;
 }
 
 a, a:visited{
 	color:white;
-	font-size:1.5vw;
+	font-size:min(3vw, 14pt);
 	font-family:'Kiwi Maru',monospace, Gill Sans, Veranda, sans-serif;
 	text-decoration:none;
 	background-color:#bbc0e9;
@@ -69,7 +69,7 @@ a, a:visited{
 
 a:hover, a:visited:hover{
 	color:white;
-	font-size:1.5vw;
+	font-size:min(3vw, 14pt);
 	font-family:'Kiwi Maru', monospace, Gill Sans, Veranda, sans-serif;
 	text-decoration:none;
 	background-color:#a3dafe;
@@ -83,7 +83,7 @@ ul{
 	list-style-type:circle;
 	list-style-position:inside;
 	color:white;
-	font-size:1.5vw;
+	font-size:min(3.5vw, 16pt);
 	font-family:'Kiwi Maru', monospace, Gill Sans, Veranda, sans-serif;
 	margin-bottom:30px;
 }
@@ -125,7 +125,7 @@ button{
 	border-style:solid;
 	border-radius:6px;
 	color:white;
-	font-size:1.5vw;
+	font-size:min(3.5vw, 16pt);
 	padding-bottom:5px;
 	padding-right:10px;
 	padding-left:10px;
@@ -144,7 +144,7 @@ img{
 
 footer p{
 	margin:10px;
-	font-size:1.0vw;
+	font-size:min(2.5vw, 12pt);
 }
 
 iframe{
@@ -190,7 +190,7 @@ iframe{
 
 .nav ul li a, .nav ul li a:visited{
 	color:white;
-	font-size:16pt;
+	font-size:min(3.5vw, 16pt);
 	font-family:'Kiwi Maru',monospace, Gill Sans, Veranda,sans-serif;
 	border-radius:4px;
 	padding-top: 6px;
@@ -206,7 +206,7 @@ iframe{
 .nav ul li a:hover, .nav ul li a:visited:hover{
 	cursor:pointer;
 	color:white;
-	font-size:16pt;
+	font-size:min(3.5vw, 16pt);
 	font-family:'Kiwi Maru',monospace, Gill Sans, Veranda, sans-serif;
 	border-radius:4px;
 	padding-top: 6px;
@@ -221,7 +221,7 @@ iframe{
 
 .base-button, .base-button:visited{
 	color:white;
-	font-size:14pt;
+	font-size:min(3.5vw, 16pt);
 	font-family:'Kiwi Maru',monospace, Gill Sans, Veranda, sans-serif;
 	text-decoration:none;
 	background-color:#bbc0e9;
@@ -235,7 +235,7 @@ iframe{
 
 .base-button:hover, .base-button:hover{
 	color:white;
-	font-size:14pt;
+	font-size:min(3.5vw, 16pt);
 	font-family:'Kiwi Maru', monospace, Gill Sans, Veranda, sans-serif;
 	text-decoration:none;
 	background-color:#a3dafe;
@@ -266,7 +266,7 @@ iframe{
 }
 
 .socialButton img{
-	max-height:10vh;
+	max-height:8vh;
 	width:auto;
 }
 
@@ -349,7 +349,7 @@ iframe{
 
 .gallery-menu ul li a, .gallery-menu ul li a:visited{
 	color:white;
-	font-size:12pt;
+	font-size:min(3.5vw, 16pt);
 	font-family:'Kiwi Maru', monospace, Gill Sans, Veranda, sans-serif;
 	border-radius:4px;
 	padding-top: 6px;
@@ -461,7 +461,7 @@ iframe{
 .hidden, .hidden:visited{
 	background-color:rgba(255, 255, 255, 0);
 	font-family:'Kiwi Maru',monospace, Gill Sans, Veranda,sans-serif;
-	font-size:1.5vw;
+	font-size:min(3vw, 14pt);
 	color:white;
 	text-decoration:none;
 }
@@ -469,7 +469,7 @@ iframe{
 .hidden:hover, .hidden:visited:hover{
 	background-color:rgba(255, 255, 255, 0);
 	font-family:'Kiwi Maru',monospace, Gill Sans, Veranda,sans-serif;
-	font-size:1.5vw;
+	font-size:min(3vw, 14pt);
 	color:white;
 	text-decoration:none;
 	cursor:pointer;
@@ -631,7 +631,7 @@ iframe{
 	border-style:none;
 	border-radius:6px;
 	color:white;
-	font-size:13pt;
+	font-size:min(2vw, 14pt);
 	padding-bottom:5px;
 	padding-right:10px;
 	padding-left:10px;
