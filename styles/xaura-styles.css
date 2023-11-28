@@ -176,12 +176,6 @@ iframe{
 	white-space:nowrap;
 }
 
-@media (max-width: 600px){
-	.nav{
-		max-width:600px;
-	}
-}
-
 .nav ul{
 	display:flex;
 	flex-direction:row;
@@ -263,7 +257,7 @@ iframe{
 .socialButton, .socialButton:visited{
 	max-height:14vh;
 	text-align:center;
-	padding:0px 10px;
+	padding:20px 20px;
 	margin:0px 15px;
 	background-color:rgba(255,255,255,0);
 }
@@ -271,7 +265,7 @@ iframe{
 .socialButton:hover, .socialButton:visited:hover{
 	max-height:14vh;
 	text-align:center;
-	padding:0px 10px;
+	padding:20px 20px;
 	margin:0px 15px;
 	background-color:rgba(255,255,255,0);
 	cursor:pointer;
@@ -445,14 +439,8 @@ iframe{
 	align-items:center;
 	background-color:rgba(22, 28, 59, 0.85);
 	border-radius: 12px;
-	padding:10px 25px;
+	padding:25px 50px;
 	margin-bottom:30px;
-}
-
-@media(max-width: 600px){
-	.info-box{
-		max-width:600px;
-	}
 }
 
 .icon, .icon:visited{
@@ -644,7 +632,6 @@ iframe{
 	margin:15px 20px;
 }
 
-
 .fake-button, .fake-button:hover{
 	background-color:#bbc0e9;
 	border-color:none;
@@ -659,4 +646,48 @@ iframe{
 	font-family:'Kiwi Maru',monospace, Gill Sans, Veranda,sans-serif;
 	cursor:not-allowed;
 	white-space:nowrap;
+}
+
+
+@media only screen and (max-width: 450px){
+	.nav{
+		max-width:450px;
+		overflow:scroll;
+	}
+
+	.img-menu{
+		background-color:#45488D;
+		color:white;
+		border-radius:8px;
+		overflow:scroll;
+	}
+
+	.info-img{
+		max-width:300px;
+	}
+
+	.show-off-img{
+		max-width:300px;
+	}
+
+	.pixel-image{
+		max-width:min(14.5vh, 120px);
+		max-height:120px;
+	}
+
+	.chibi-animal-img{
+		max-width:250px;
+		max-height:250px;
+		object-fit:contain;
+		margin:15px;
+		background-color:rgb(255, 238, 239);
+		border-radius:12px;
+	}
+
+	#view-img{
+		height:75%;
+		max-height:550px;/*this will be handy*/
+		max-width:350px;
+		margin:15px 20px;
+	}
 }

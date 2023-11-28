@@ -22,43 +22,50 @@ h1, h2, h3, h4, h5, h6{
 }
 
 p{
-	font-size:14pt;
+	font-size:min(3vw, 14pt);
+	margin:10px 0px;
 }
 
 h1{
-	font-size:2.2em;
+	font-size:min(5.5vw, 45pt);
+	margin:30px 0px;
 }
 
 h2{
-	font-size:2.0em;
+	font-size:min(5vw, 40pt);
+	margin:25px 0px;
 }
 
 h3{
-	font-size:1.8em;
+	font-size:min(4.5vw, 30pt);
+	margin:20px 0px;
 }
 
 h4{
-	font-size:1.5em;
+	font-size:min(4vw, 20pt);
+	margin:15px 0px;
 }
 
 h5{
-	font-size:1.2em;
+	font-size:min(3.5vw, 16pt);
+	margin:10px 0px;
 }
 
 h6{
-	font-size:0.8em;
+	font-size:min(2.5vw, 12pt);
+	margin:10px 0px;
 }
 
 footer p{
 	color:white;
 	font-family:Geneva, Verdana, Arial, sans-serif;
 	margin-bottom:20px;
-	font-size:10pt;
+	font-size:min(2.5vw, 12pt);
 }
 
 a, a:visited{
 	color:white;
-	font-size:14pt;
+	font-size:min(3vw, 14pt);
 	margin-top:5px;
 	font-family:Geneva, Verdana, Arial, sans-serif;
 	text-decoration: none;
@@ -66,7 +73,7 @@ a, a:visited{
 
 a:hover, a:visited:hover{
 	color:white;
-	font-size:14pt;
+	font-size:min(3vw, 14pt);
 	margin-top:5px;
 	font-family:Geneva, Verdana, Arial, sans-serif;
 	text-decoration: none;
@@ -96,13 +103,13 @@ a:hover, a:visited:hover{
 .nav ul li a, .nav ul li a:visited{
 	padding:10px 15px;
 	color:white;
-	font-size:18px;
+	font-size:min(3.5vw, 18pt);
 	padding:10px 15px;
 }
 
 .nav ul li a:hover, .nav ul li a:visited:hover{
 	color:white;
-	font-size:18px;
+	font-size:min(3.5vw, 18pt);
 	padding:10px 15px;
 	cursor:pointer;
 }
@@ -112,7 +119,7 @@ a:hover, a:visited:hover{
 	text-decoration:underline;
 	border-style:none;
 	background-color:none;
-	font-size:10pt;
+	font-size:min(2vw, 10pt);
 }
 
 .simple-a:hover, .simple-a:visited:hover{
@@ -121,9 +128,9 @@ a:hover, a:visited:hover{
 	border-style:none;
 	background-color:none;
 	cursor:hover;
-	font-size:10pt;
+	font-size:min(2vw, 10pt);
 }
 
 .large-image{
-	width:1300px;
+	max-width:1300px;
 }
