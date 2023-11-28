@@ -223,6 +223,26 @@ iframe{
 	white-space:nowrap;
 }
 
+.dropdown{
+	display:none;
+}
+
+.dropdown ul{
+	display:none;
+}
+
+.dropdown ul li{
+	display:none;
+}
+
+.dropdown ul li a, .nav ul li a:visited{
+	display:none;
+}
+
+.dropdown ul li a:hover, .nav ul li a:visited:hover{
+	display:none;
+}
+
 .base-button, .base-button:visited{
 	color:white;
 	font-size:min(3.5vw, 16pt);
@@ -563,7 +583,7 @@ iframe{
 
 .x-button{
 	font-weight:bolder;
-	font-size:20px;
+	font-size:min(4vw, 20px);
 	background-color:rgba(255,255,255,0);
 	border-color:white;
 	border-radius:8px;
@@ -651,8 +671,85 @@ iframe{
 
 @media only screen and (max-width: 450px){
 	.nav{
-		max-width:450px;
+		display:none;
+	}
+
+	.dropdown{
+		display:flex;
+		flex-direction:row;
+		align-items:center;
+		background-color:rgba(13, 5, 42, 0.448);
+		border-radius:12px;
+		position:relative;
+		white-space:nowrap;
 		overflow:scroll;
+	}
+
+	.dropbutton, .dropbutton:visited{
+		background-color:rgba(255, 255, 255, 0);
+	}
+
+	
+.dropbutton:hover, .dropbutton:visited:hover{
+	background-color:rgba(255, 255, 255, 0);
+	cursor:hover;
+}
+
+	.dropbutton img{
+		max-width:12vh;
+		max-height:12vh;
+		border-radius:5px;
+	}
+
+	.dropdown-options, .dropdown-options:visited{
+		display:none;
+	}
+
+	.dropdown-options ul{
+		display:flex;
+	flex-direction:column;
+	align-items:center;
+	margin-bottom:10px;
+	list-style-type: none;
+	margin:0px;
+	}
+	
+	.dropdown-options ul li{
+		list-style-type: none;
+	margin:0px;
+	}
+	
+	.dropdown-options ul li a, .dropdown-options ul li a:visited{
+		color:white;
+	font-size:min(3.5vw, 16pt);
+	font-family:'Kiwi Maru',monospace, Gill Sans, Veranda,sans-serif;
+	border-radius:4px;
+	padding-top: 6px;
+	padding-bottom:6px;
+	padding-left:20px;
+	padding-right:20px;
+	text-decoration:none;
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-right:20px;
+	white-space:nowrap;
+	}
+	
+	.dropdown-options ul li a:hover, .dropdown-options ul li a:visited:hover{
+		cursor:pointer;
+	color:white;
+	font-size:min(3.5vw, 16pt);
+	font-family:'Kiwi Maru',monospace, Gill Sans, Veranda, sans-serif;
+	border-radius:4px;
+	padding-top: 6px;
+	padding-bottom:6px;
+	padding-left:20px;
+	padding-right:20px;
+	text-decoration:none;
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-right:20px;
+	white-space:nowrap;
 	}
 
 	.img-menu{
@@ -686,8 +783,20 @@ iframe{
 
 	#view-img{
 		height:75%;
-		max-height:550px;/*this will be handy*/
+		max-height:350px;/*this will be handy*/
 		max-width:350px;
 		margin:15px 20px;
+	}
+
+	.x-button{
+		font-weight:bolder;
+		font-size:min(4vw, 20px);
+		background-color:rgba(255,255,255,0);
+		border-color:white;
+		border-radius:8px;
+		border-width:4px;
+		padding:8px;
+		margin-right:400px;
+		margin-top:150px;
 	}
 }
