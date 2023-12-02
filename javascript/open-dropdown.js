@@ -1,5 +1,5 @@
 function dropdownVisiblity(){
-  var content = document.getElementByClass("dropdown-options");
+  var content = document.getElementsByClassName("dropdown-options");
   if(content[0].style.display == "none"){
     content[0].style.display = "grid"
     var dropUL = document.getElementById("drop-ul");

@@ -174,6 +174,8 @@ iframe{
 	border-radius:12px;
 	position:relative;
 	white-space:nowrap;
+	overflow-x:hidden;
+	overflow-y:hidden;
 }
 
 .nav ul{
@@ -187,7 +189,8 @@ iframe{
 
 .nav ul li{
 	list-style-type: none;
-	margin:0px;
+	margin-right:20px;
+	margin-bottom:0px;
 }
 
 .nav ul li a, .nav ul li a:visited{
@@ -200,9 +203,6 @@ iframe{
 	padding-left:20px;
 	padding-right:20px;
 	text-decoration:none;
-	margin-top:0px;
-	margin-bottom:0px;
-	margin-right:20px;
 	white-space:nowrap;
 }
 
@@ -217,9 +217,6 @@ iframe{
 	padding-left:20px;
 	padding-right:20px;
 	text-decoration:none;
-	margin-top:0px;
-	margin-bottom:0px;
-	margin-right:20px;
 	white-space:nowrap;
 }
 
@@ -227,20 +224,69 @@ iframe{
 	display:none;
 }
 
-.dropdown ul{
+.dropButton, .dropButton:visited{
+	background-color:rgba(255, 255, 255, 0);
+	margin-bottom:15px;
+	border:none;
+}
+
+
+.dropButton:hover, .dropButton:visited:hover{
+	background-color:rgba(255, 255, 255, 0);
+	cursor:hover;
+	margin-bottom:15px;
+	border:none;
+}
+
+.dropButton img{
+	max-width:12vh;
+	max-height:12vh;
+	border-radius:5px;
+}
+
+.dropdown-options, .dropdown-options:visited{
 	display:none;
 }
 
-.dropdown ul li{
-	display:none;
+.dropdown-options ul{
+display:flex;
+flex-direction:column;
+align-items:center;
+margin-bottom:10px;
+list-style-type: none;
+margin:0px;
 }
 
-.dropdown ul li a, .nav ul li a:visited{
-	display:none;
+.dropdown-options ul li{
+	list-style-type: none;
+	margin-bottom:15px;
 }
 
-.dropdown ul li a:hover, .nav ul li a:visited:hover{
-	display:none;
+.dropdown-options ul li a, .dropdown-options ul li a:visited{
+	color:white;
+font-size:min(3.5vw, 16pt);
+font-family:'Kiwi Maru',monospace, Gill Sans, Veranda,sans-serif;
+border-radius:4px;
+padding-top: 6px;
+padding-bottom:6px;
+padding-left:20px;
+padding-right:20px;
+text-decoration:none;
+white-space:nowrap;
+}
+
+.dropdown-options ul li a:hover, .dropdown-options ul li a:visited:hover{
+	cursor:pointer;
+color:white;
+font-size:min(3.5vw, 16pt);
+font-family:'Kiwi Maru',monospace, Gill Sans, Veranda, sans-serif;
+border-radius:4px;
+padding-top: 6px;
+padding-bottom:6px;
+padding-left:20px;
+padding-right:20px;
+text-decoration:none;
+white-space:nowrap;
 }
 
 .base-button, .base-button:visited{
@@ -676,37 +722,42 @@ iframe{
 
 	.dropdown{
 		display:flex;
-		flex-direction:row;
-		align-items:center;
-		background-color:rgba(13, 5, 42, 0.448);
-		border-radius:12px;
-		position:relative;
-		white-space:nowrap;
-		overflow:scroll;
+			flex-direction:column;
+			align-items:center;
+			background-color:rgba(13, 5, 42, 0.448);
+			border-radius:12px;
+			position:relative;
+			white-space:nowrap;
+			overflow-y:hidden;
+			overflow-x:hidden;
 	}
-
-	.dropbutton, .dropbutton:visited{
-		background-color:rgba(255, 255, 255, 0);
-	}
-
 	
-.dropbutton:hover, .dropbutton:visited:hover{
-	background-color:rgba(255, 255, 255, 0);
-	cursor:hover;
-}
-
-	.dropbutton img{
+	.dropButton, .dropButton:visited{
+		background-color:rgba(255, 255, 255, 0);
+		margin-bottom:15px;
+		border:none;
+	}
+	
+	
+	.dropButton:hover, .dropButton:visited:hover{
+		background-color:rgba(255, 255, 255, 0);
+		cursor:hover;
+		margin-bottom:15px;
+		border:none;
+	}
+	
+	.dropButton img{
 		max-width:12vh;
 		max-height:12vh;
 		border-radius:5px;
 	}
-
+	
 	.dropdown-options, .dropdown-options:visited{
 		display:none;
 	}
-
+	
 	.dropdown-options ul{
-		display:flex;
+	display:flex;
 	flex-direction:column;
 	align-items:center;
 	margin-bottom:10px;
@@ -716,7 +767,7 @@ iframe{
 	
 	.dropdown-options ul li{
 		list-style-type: none;
-	margin:0px;
+		margin-bottom:15px;
 	}
 	
 	.dropdown-options ul li a, .dropdown-options ul li a:visited{
@@ -729,9 +780,6 @@ iframe{
 	padding-left:20px;
 	padding-right:20px;
 	text-decoration:none;
-	margin-top:0px;
-	margin-bottom:0px;
-	margin-right:20px;
 	white-space:nowrap;
 	}
 	
@@ -746,11 +794,9 @@ iframe{
 	padding-left:20px;
 	padding-right:20px;
 	text-decoration:none;
-	margin-top:0px;
-	margin-bottom:0px;
-	margin-right:20px;
 	white-space:nowrap;
 	}
+	
 
 	.img-menu{
 		background-color:#45488D;
