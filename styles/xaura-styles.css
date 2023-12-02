@@ -13,6 +13,8 @@ body{
 	background-size:auto 350px;
 	background-repeat:repeat;
 	text-align:center;
+	/*keep this*/
+	background-attachment:fixed;
 }
 
 p, h1, h2, h3, h4, h5, h6{
