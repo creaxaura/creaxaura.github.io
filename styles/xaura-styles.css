@@ -848,4 +848,18 @@ white-space:nowrap;
 		margin-right:400px;
 		margin-top:150px;
 	}
+
+	.pop-up{
+		background-color:rgba(34, 36, 54, 0.7);
+		position:fixed;
+		display:none;
+		top:0; /*position up and down*/
+		left:0; /*position left right*/
+		width:100%;
+		height:100vh;
+		z-index:1; /*position as a layer (front and back)*/
+		overflow:auto; /*helps with autoscroll*/
+		padding:25px 100px;
+		align-items:top;
+	}
 }
