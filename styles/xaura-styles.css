@@ -652,6 +652,7 @@ white-space:nowrap;
 	z-index:1; /*position as a layer (front and back)*/
 	overflow:auto; /*helps with autoscroll*/
 	padding:25px 100px;
+	align-items:center;
 }
 
 .display-column{
