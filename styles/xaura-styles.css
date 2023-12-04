@@ -399,26 +399,50 @@ white-space:nowrap;
 	align-items:center;
 }
 
-.gallery-menu{
+.gallery-menu-holder{
 	background-color:rgba(40, 41, 92, 0.8);
-	padding:25px 15px;
+	padding:20px 20px;
 	display:flex;
-	flex-direction:row;
+	flex-direction:column;
 	align-items:center;
 	border-radius:12px;
 	margin-bottom:20px;
 }
 
+.gallery-menu-button, .gallery-menu-button:visited{
+	background-color:rgba(255, 255, 255, 0);
+	border-radius:12px;
+	border-color:rgba(255, 255, 255, 0);
+	padding:10px 15px;
+}
+
+.gallery-menu-button:hover, .gallery-menu-button:visited:hover{
+	background-color:rgba(132, 62, 223, 0.452);
+	border-radius:12px;
+	border-color:rgba(255, 255, 255, 0);
+	padding:10px 15px;
+	cursor:hover;
+}
+
+.gallery-menu-button img{
+	max-width:min(8vh, 120px);
+	max-height:min(8vh, 120px);
+}
+
+.gallery-menu{
+	display:none;
+}
+
 .gallery-menu ul{
 	display:flex;
-	flex-direction:row;
+	flex-direction:column;
 	align-items:center;
 	margin:0px;
 }
 
 .gallery-menu li{
 	display:inline-block;
-	margin:0px;
+	margin:10px 10px;
 }
 
 .gallery-menu ul li a, .gallery-menu ul li a:visited{
