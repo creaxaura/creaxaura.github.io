@@ -1022,14 +1022,14 @@ white-space:nowrap;
 
 	.x-button{
 		font-weight:bolder;
-		font-size:min(4vw, 20px);
+		font-size:min(6vw, 40pt);
 		background-color:rgba(255,255,255,0);
 		border-color:white;
 		border-radius:8px;
 		border-width:4px;
 		padding:8px;
-		margin-right:200px;
-		margin-top:50px;
+		margin-right:100px;
+		margin-top:25px;
 	}
 
 	.pop-up{
@@ -1044,17 +1044,5 @@ white-space:nowrap;
 		overflow:auto; /*helps with autoscroll*/
 		padding:25px 50px;
 		align-items:top;
-	}
-
-	.gallery-menu{
-		background-color:rgba(40, 41, 92, 0.8);
-		padding:25px 15px;
-		display:flex;
-		flex-direction:row;
-		align-items:center;
-		border-radius:12px;
-		margin-bottom:20px;
-		overflow-x:scroll;
-		overflow-y:hidden;
 	}
 }
