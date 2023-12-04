@@ -409,6 +409,51 @@ white-space:nowrap;
 	margin-bottom:20px;
 }
 
+.portfolio-menu{
+	background-color:rgba(40, 41, 92, 0.8);
+	padding:20px 20px;
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	border-radius:12px;
+	margin-bottom:20px;
+}
+
+.portfolio-menu ul{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	margin:0px;
+}
+
+.portfolio-menu li{
+	display:inline-block;
+	margin:10px 10px;
+}
+
+.portfolio-menu ul li a, .portfolio-menu ul li a:visited{
+	color:white;
+	font-size:min(3.5vw, 16pt);
+	font-family:'Kiwi Maru', monospace, Gill Sans, Veranda, sans-serif;
+	border-radius:4px;
+	padding-top: 6px;
+	padding-bottom:6px;
+	padding-left:20px;
+	padding-right:20px;
+	text-decoration:none;
+	margin-top:22px;
+	margin-bottom:2px;
+	margin-left:10px;
+	margin-right:15px;
+	white-space:nowrap;
+}
+
+.portfolio-menu ul li a:hover, .portfolio-menu ul li a:visited:hover{
+	background-color:#F8AEF0;
+	cursor:pointer;
+	white-space:nowrap;
+}
+
 .gallery-menu-button, .gallery-menu-button:visited{
 	background-color:rgba(255, 255, 255, 0);
 	border-radius:12px;
@@ -675,7 +720,7 @@ white-space:nowrap;
 	height:100vh;
 	z-index:1; /*position as a layer (front and back)*/
 	overflow:auto; /*helps with autoscroll*/
-	padding:25px 100px;
+	padding:25px 50px;
 	align-items:center;
 }
 
@@ -997,7 +1042,7 @@ white-space:nowrap;
 		height:100vh;
 		z-index:1; /*position as a layer (front and back)*/
 		overflow:auto; /*helps with autoscroll*/
-		padding:25px 25px;
+		padding:25px 50px;
 		align-items:top;
 	}
 
