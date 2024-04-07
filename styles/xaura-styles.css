@@ -854,6 +854,7 @@ white-space:nowrap;
 	cursor:not-allowed;
 }
 
+
 .profile p{
 	font-size:min(4vw, 30pt);
 	font-weight:bold;
@@ -864,8 +865,53 @@ white-space:nowrap;
 	max-height:300px;
 }
 
+.can-click-profile, .can-click-profile:visited{
+	margin-right:50px;
+	background-color:rgba(8, 10, 23, 0.788);
+	border-radius:10px;
+	align-items:center;
+	display:flex;
+	flex-direction:column;
+	max-width:350px;
+	max-height:350px;
+	padding:20px 20px;
+	border-color:rgba(43, 53, 118, 0.788);
+}
+
+.can-click-profile:hover, .can-click-profile:visited:hover{
+	margin-right:50px;
+	background-color:rgba(43, 53, 118, 0.788);
+	border-radius:10px;
+	align-items:center;
+	display:flex;
+	flex-direction:column;
+	max-width:350px;
+	max-height:350px;
+	padding:20px 20px;
+	border-color:rgba(43, 53, 118, 0.788);
+	cursor:pointer;
+}
+
+.can-click-profile p{
+	font-size:min(4vw, 30pt);
+	font-weight:bold;
+}
+
+.can-click-profile img{
+	max-width:300px;
+	max-height:300px;
+}
+
+
 .extra-hidden, .extra-hidden:visited{
 	color:rgba(255, 255, 255, 0.05);
+	border-color:rgba(255, 255, 255, 0);
+	background-color:rgba(255, 255, 255, 0);
+	font-size:(2.5vw, 14pt);
+}
+
+.extra-hidden-two{
+	color:rgba(255, 255, 255, 0.1);
 	border-color:rgba(255, 255, 255, 0);
 	background-color:rgba(255, 255, 255, 0);
 	font-size:(2.5vw, 14pt);
@@ -877,6 +923,19 @@ white-space:nowrap;
 	background-color:rgba(255, 255, 255, 0);
 	font-size:(2.5vw, 14pt);
 	cursor:pointer;
+}
+
+.video-row{
+	display:flex;
+	flex-direction: row;
+	align-items:center;
+}
+
+.profile-video{
+	max-width:250px;
+	max-height:400px;
+	margin-right:40px;
+	margin-top:30px;
 }
 
 ::-webkit-scrollbar{
@@ -900,6 +959,7 @@ white-space:nowrap;
 	border-radius:40px;
 	cursor:pointer;
 }
+
 
 /*tablet build*/
 @media only screen and (max-width:1200px){
