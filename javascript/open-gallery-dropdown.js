@@ -10,7 +10,6 @@ function galleryDropdownVisiblity(){
     <li><a href="art-portfolio-emotes.html">Emotes</a></li>
     <li><a href="art-portfolio-pngtuber.html">PNGtuber</a></li>
     <li><a href="art-portfolio-icons.html">Icons</a></li>
-    <li><a href="art-portfolio-stickers.html">Stickers</a></li>
     </ul>`
   } else {
     content[0].style.display = "none"
