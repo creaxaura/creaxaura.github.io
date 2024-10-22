@@ -152,6 +152,8 @@ FullSizeRender-1.jpg
 hikaru-what.png
 IMG_0144.png
 IMG_1042.png
+IMG_1046.png
+IMG_1047.png
 IMG_1054.png
 IMG_1058.png
 IMG_1315.jpeg
@@ -172,6 +174,13 @@ IMG_3638.JPG
 IMG_3639.JPG
 IMG_3655.JPG
 IMG_6737.jpeg
+IMG_7823.JPG
+IMG_7882.JPG
+IMG_8507.PNG
+IMG_8520.JPG
+IMG_8605.JPG
+IMG_8613.PNG
+IMG_8625.JPG
 IMG_9001.JPG
 IMG_9118.jpeg
 IMG_9131.jpg
@@ -188,5 +197,3 @@ Start of the Storm Preview.png
 Trhough backdrawing.jpg
 Various.png
 Yuki Sketch.jpg
-IMG_1046.png
-IMG_1047.png

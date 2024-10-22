@@ -2,8 +2,8 @@
 <html lang="en-US">
 
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8"/>
-	<title>Case Files</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"  charset="UTF-8"/>
+	<title>Art Portfolio - Sketches</title>
 	<link rel="icon"
   type="image/x-icon" href="favicon.ico" />
 	<link rel="stylesheet"
@@ -11,69 +11,57 @@
 	<link rel="stylesheet" href="..\styles\xaura-styles.css"/>
 	<link rel="stylesheet" href="..\styles\xaura-styles-tablet.css">
 	<link rel="stylesheet" href="..\styles\xaura-styles-mobile.css">
-	<script src="javascript/open-dropdown.js"></script>
+	<script src="/javascript/get-image-data.js"></script>
+	<script src="/javascript/open-dropdown.js"></script>
+	<script src="/javascript/open-gallery-dropdown.js"></script>
 </head>
 
 <header>
 	<div class="nav">
-		<a class="nav-icon" href="/"><img src="./images/for-site/mini-logo-2.PNG" alt="mini-logo"></a>
+		<a class="nav-icon" href="/"><img src="/images/for-site/mini-logo-2.PNG" alt="mini-logo"></a>
 		<div class="nav-options">
 		<ul>
 			<li><a href="/">Home</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="portfolio/">Portfolio</a></li>
-			<li><a href="#">Projects</a></li>
-			<li><a href="stream-info.html">Stream Info</a></li>
-			<li><a href="shop/">Shop</a></li>
-			<li><a href="commissions/">Commissions</a></li>
+			<li><a href="/about.html">About</a></li>
+			<li><a href="./">Portfolio</a></li>
+			<li><a href="/projects.html">Projects</a></li>
+			<li><a href="/stream-info.html">Stream Info</a></li>
+			<li><a href="/shop/">Shop</a></li>
+			<li><a href="/commissions/">Commissions</a></li>
 		</ul>
 	</div>
 	</div>
 	<div class="dropdown">
-		<img class="icon-img" src="./images/for-site/mini-logo.png" alt="mini-logo"/>
-		<button class="dropButton" onClick="dropdownVisiblity();"><img class="icon-img" src="./images/for-site/dropdown_button.png" alt="mini-logo"></button>
+		<img class="icon-img" src="/images/for-site/mini-logo.png" alt="mini-logo"/>
+		<button class="dropButton" onClick="dropdownVisiblity();"><img class="icon-img" src="/images/for-site/dropdown_button.png" alt="mini-logo"></button>
 		<div class="dropdown-options">
 			<ul id="drop-ul">
 			</ul>
 		</div>
 	</div>
+
 </header>
 
-<body>
-	<div class="centered">
-			<h1>Projects</h1>
-		<div class="icon-nav">
+<body onload="grabImage('sketches.txt')">
+<div class="centered">
+	<div class="gallery-menu-holder">
+		<button class="gallery-menu-button" onClick="galleryDropdownVisiblity();">
+			<img src="/images/for-site/dropdown_button.png"/>
+		</button>
+		<div class="gallery-menu">
 		</div>
-		<div class="case-box">
-			<div class="case-file-title">
-				<h3 class="case-title"><em>Projects Completed</em></h3>
-			</div>
-			<div class="case-file-holder">
-				<p>none</p>
-			</div>
-			<div class="case-file-title">
-				<h3 class="case-title"><em>Projects in Progress...</em></h3>
-			</div>
-			<div class="case-file-holder">
-				<p>none</p>
-			</div>
-			<div class="case-file-title">
-				<h3 class="case-title"><em>Projects on Hold...</em></h3>
-			</div>
-			<div class="case-file-holder">
-					<p>none</p>
-			</div>
-			<div class="case-file-title">
-				<h3 class="case-title"><em>Announced Projects</em></h3>
-			</div>
-			<div class="case-file-holder">
-				<a class="hidden" href="light-pollen-project/"><p>none</p></a>
-			</div>
-		</div>
-		<a class="extra-hidden" href="aura-sight/">
-			agency
-		</a>
 	</div>
+	<div class="gallery">
+  </div>
+	</div>
+
+	<div class="pop-up">
+		<div class="display-column">
+			<div class="display-row-end"><button class="x-button" onClick="exitViewImage();">X</button></div>
+			<img id="view-img">
+		</div>
+	</div>
+	
 </body>
 
 <footer>
