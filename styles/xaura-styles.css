@@ -821,6 +821,7 @@ white-space:nowrap;
 	font-family:'Kiwi Maru',monospace, sans-serif;
 	cursor:not-allowed;
 	white-space:nowrap;
+	margin-right:10px;
 }
 
 
@@ -890,6 +891,12 @@ white-space:nowrap;
 	max-height:400px;
 	margin-right:40px;
 	margin-top:30px;
+}
+
+.side-info-button{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
 }
 
 .mini-nav{
