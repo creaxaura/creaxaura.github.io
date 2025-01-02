@@ -1,0 +1,298 @@
+/*phone build 1*/
+@media only screen and (max-width:600px){
+	.nav{
+		display:none;
+	}
+
+	.dropdown{
+		display:flex;
+			flex-direction:column;
+			align-items:center;
+			background:linear-gradient(rgba(13, 5, 42,0.8) 60%, rgba(52,48,88, 0));
+			border-radius:12px;
+			position:relative;
+			white-space:nowrap;
+			overflow-y:hidden;
+			overflow-x:hidden;
+	}
+	
+	.dropButton, .dropButton:visited{
+		background-color:rgba(255, 255, 255, 0);
+		margin-bottom:15px;
+		border:none;
+	}
+	
+	
+	.dropButton:hover, .dropButton:visited:hover{
+		background-color:rgba(255, 255, 255, 0);
+		cursor:hover;
+		margin-bottom:15px;
+		border:none;
+	}
+	
+	.dropButton img{
+		max-width:12vh;
+		max-height:12vh;
+		border-radius:5px;
+	}
+	
+	.dropdown-options, .dropdown-options:visited{
+		display:none;
+	}
+	
+	.dropdown-options ul{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	margin-bottom:10px;
+	list-style-type: none;
+	margin:0px;
+	}
+	
+	.dropdown-options ul li{
+		list-style-type: none;
+		margin-bottom:15px;
+	}
+	
+	.dropdown-options ul li a, .dropdown-options ul li a:visited{
+		color:white;
+	font-size:min(4vw, 20pt);
+	font-family:'Kiwi Maru',monospace, sans-serif;
+	border-radius:4px;
+	padding-top: 6px;
+	padding-bottom:6px;
+	padding-left:20px;
+	padding-right:20px;
+	text-decoration:none;
+	white-space:nowrap;
+	width:100vw;
+	}
+	
+	.dropdown-options ul li a:hover, .dropdown-options ul li a:visited:hover{
+		cursor:pointer;
+	color:white;
+	font-size:min(4vw, 20pt);
+	font-family:'Kiwi Maru',monospace, sans-serif;
+	border-radius:4px;
+	padding-top: 6px;
+	padding-bottom:6px;
+	padding-left:20px;
+	padding-right:20px;
+	text-decoration:none;
+	white-space:nowrap;
+	width:100vw;
+	}
+	
+
+	.img-menu{
+		background-color:#45488D;
+		color:white;
+		border-radius:8px;
+		overflow:scroll;
+	}
+
+	.info-img{
+		max-width:300px;
+	}
+
+	.show-off-img{
+		max-width:300px;
+	}
+
+	.pixel-image{
+		max-width:min(14.5vh, 120px);
+		max-height:120px;
+	}
+
+	.chibi-animal-img{
+		max-width:250px;
+		max-height:250px;
+		object-fit:contain;
+		margin:15px;
+		background-color:rgb(255, 238, 239);
+		border-radius:12px;
+	}
+
+	#view-img{
+		height:75%;
+		max-height:350px;/*this will be handy*/
+		max-width:350px;
+		margin:15px 20px;
+	}
+
+	.x-button{
+		font-weight:bolder;
+		font-size:min(6vw, 40pt);
+		background-color:rgba(255,255,255,0);
+		border-color:white;
+		border-radius:8px;
+		border-width:4px;
+		padding:8px;
+		margin-right:100px;
+		margin-top:25px;
+	}
+
+	.pop-up{
+		background-color:rgba(34, 36, 54, 0.7);
+		position:fixed;
+		display:none;
+		top:0; /*position up and down*/
+		left:0; /*position left right*/
+		width:100%;
+		height:100vh;
+		z-index:1; /*position as a layer (front and back)*/
+		overflow:auto; /*helps with autoscroll*/
+		padding:25px 50px;
+		align-items:top;
+	}
+}
+
+/*phone build 2*/
+@media only screen and (max-width:450px){
+	.nav{
+		display:none;
+	}
+
+	.dropdown{
+		display:flex;
+			flex-direction:column;
+			align-items:center;
+			background:linear-gradient(rgba(13, 5, 42,0.8) 60%, rgba(52,48,88, 0));
+			border-radius:12px;
+			position:relative;
+			white-space:nowrap;
+			overflow-y:hidden;
+			overflow-x:hidden;
+	}
+	
+	.dropButton, .dropButton:visited{
+		background-color:rgba(255, 255, 255, 0);
+		margin-bottom:15px;
+		border:none;
+	}
+	
+	
+	.dropButton:hover, .dropButton:visited:hover{
+		background-color:rgba(255, 255, 255, 0);
+		cursor:hover;
+		margin-bottom:15px;
+		border:none;
+	}
+	
+	.dropButton img{
+		max-width:12vh;
+		max-height:12vh;
+		border-radius:5px;
+	}
+	
+	.dropdown-options, .dropdown-options:visited{
+		display:none;
+	}
+	
+	.dropdown-options ul{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	margin-bottom:10px;
+	list-style-type: none;
+	margin:0px;
+	}
+	
+	.dropdown-options ul li{
+		list-style-type: none;
+		margin-bottom:15px;
+	}
+	
+	.dropdown-options ul li a, .dropdown-options ul li a:visited{
+		color:white;
+	font-size:min(4vw, 20pt);
+	font-family:'Kiwi Maru',monospace, sans-serif;
+	border-radius:4px;
+	padding-top: 6px;
+	padding-bottom:6px;
+	padding-left:20px;
+	padding-right:20px;
+	text-decoration:none;
+	white-space:nowrap;
+	width:100vw;
+	}
+	
+	.dropdown-options ul li a:hover, .dropdown-options ul li a:visited:hover{
+		cursor:pointer;
+	color:white;
+	font-size:min(4vw, 20pt);
+	font-family:'Kiwi Maru',monospace, sans-serif;
+	border-radius:4px;
+	padding-top: 6px;
+	padding-bottom:6px;
+	padding-left:20px;
+	padding-right:20px;
+	text-decoration:none;
+	white-space:nowrap;
+	width:100vw;
+	}
+	
+
+	.img-menu{
+		background-color:#45488D;
+		color:white;
+		border-radius:8px;
+		overflow:scroll;
+	}
+
+	.info-img{
+		max-width:300px;
+	}
+
+	.show-off-img{
+		max-width:300px;
+	}
+
+	.pixel-image{
+		max-width:min(14.5vh, 120px);
+		max-height:120px;
+	}
+
+	.chibi-animal-img{
+		max-width:250px;
+		max-height:250px;
+		object-fit:contain;
+		margin:15px;
+		background-color:rgb(255, 238, 239);
+		border-radius:12px;
+	}
+
+	#view-img{
+		height:75%;
+		max-height:350px;/*this will be handy*/
+		max-width:350px;
+		margin:15px 20px;
+	}
+
+	.x-button{
+		font-weight:bolder;
+		font-size:min(6vw, 40pt);
+		background-color:rgba(255,255,255,0);
+		border-color:white;
+		border-radius:8px;
+		border-width:4px;
+		padding:8px;
+		margin-right:100px;
+		margin-top:25px;
+	}
+
+	.pop-up{
+		background-color:rgba(34, 36, 54, 0.7);
+		position:fixed;
+		display:none;
+		top:0; /*position up and down*/
+		left:0; /*position left right*/
+		width:100%;
+		height:100vh;
+		z-index:1; /*position as a layer (front and back)*/
+		overflow:auto; /*helps with autoscroll*/
+		padding:25px 50px;
+		align-items:top;
+	}
+}
+
